@@ -52,6 +52,14 @@ class _GuestBookState extends State<GuestBook> {
                     },
                   ),
                 ),
+                SizedBox(
+                  height: 5,
+                ),
+                Container(
+                  child: Row(
+                    children: [Text("Attend")],
+                  ),
+                ),
                 const SizedBox(width: 8),
                 StyledButton(
                   onPressed: () async {
